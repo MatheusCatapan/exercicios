@@ -1,7 +1,6 @@
 <?php 
-
-    $soma = (int) readline();
-
+    
+    $soma = null;
     do {
         $valor = (int) readline();
         $soma += $valor;
