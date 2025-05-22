@@ -13,12 +13,9 @@
             } else {
                 echo "Insira um número POSITIVO.\n";
             }
-
         }
         while (true);
     }  
-
-
     $maior = max($numeros);
     $posicao = array_search ($maior, $numeros);
 
